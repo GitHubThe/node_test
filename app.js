@@ -7,7 +7,7 @@ var server = http.createServer(function(req,res) {
 
     res.writeHead(200,{"Content-Type":"text/plain;charset=UTF-8"});//纯文本
 
-    res.write("您好 nodejs" )
+    res.write("node world" )
 
     res.end()
 })
