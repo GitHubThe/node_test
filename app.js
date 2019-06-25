@@ -49,6 +49,6 @@ app.get('/', function (req, res) {
 })
 
 // 相当于 server.listen
-app.listen(3000, function () {
-    console.log('app is running at port 3000.')
+app.listen(8000, function () {
+    console.log('app is running at port 8000.')
 })
