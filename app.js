@@ -23,7 +23,7 @@ app.use('/node_modules/', express.static('./node_modules/'))
 app.get('/about', function (req, res) {
     // 在 Express 中可以直接 req.query 来获取查询字符串参数
     console.log(req.query)
-    res.send('你好，我是 Express!')
+    res.send('express ok!')
 })
 
 app.get('/pinglun', function (req, res) {
